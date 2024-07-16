@@ -1,6 +1,5 @@
 package fr.morowin.pdc
 
-import fr.morowin.pdc.draw._
 import fr.morowin.pdc.models._
 
 import scala.collection.mutable
@@ -133,9 +132,4 @@ class PDC {
       .toList
     Graph(newNodes, newEdges)
   }
-}
-
-object PDC extends App {
-  private val DRAW = fonte.A38_B42_version0.draw
-  new PDC().run(DRAW)
 }

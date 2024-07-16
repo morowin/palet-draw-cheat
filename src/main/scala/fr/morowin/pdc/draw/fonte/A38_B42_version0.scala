@@ -1,8 +1,8 @@
 package fr.morowin.pdc.draw.fonte
 
-import fr.morowin.pdc.draw.DrawAggregation
+import fr.morowin.pdc.draw.DrawUtil
 
-object A38_B42_version0 extends DrawAggregation {
+object A38_B42_version0 extends DrawUtil {
   private object A {
     private val drawA1: List[(Int, Int)] = List(
       34 -> 36,
