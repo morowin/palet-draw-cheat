@@ -1,6 +1,6 @@
 package fr.morowin.pdc
 
-import fr.morowin.pdc.draws._
+import fr.morowin.pdc.draw._
 import fr.morowin.pdc.models._
 
 import scala.collection.mutable
@@ -26,7 +26,7 @@ class PDC {
       Edge(src, dst, weight.toDouble)
     }
     val nodes = edges.flatMap(edge => List(edge.src, edge.dst)).toSet
-    val graph = Graph(nodes, edges.toSeq)
+    val graph = Graph(nodes, edges.toList)
 
     louvain(graph).values.toList
       .sortBy(_.size)
@@ -130,12 +130,12 @@ class PDC {
       .map { case ((src, dst), edges) =>
         Edge(src, dst, edges.map(_.weight).sum)
       }
-      .toSeq
+      .toList
     Graph(newNodes, newEdges)
   }
 }
 
 object PDC extends App {
-  private val DRAWS = fonte.A38_B42_version0.draws
-  new PDC().run(DRAWS)
+  private val DRAW = fonte.A38_B42_version0.draw
+  new PDC().run(DRAW)
 }

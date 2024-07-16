@@ -1,4 +1,4 @@
-package fr.morowin.pdc.draws
+package fr.morowin.pdc.draw
 
 trait DrawAggregation {
   def buildFor(draws: List[(Int, Int)]): List[(Int, Int)] =

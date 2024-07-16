@@ -1,9 +1,9 @@
-package fr.morowin.pdc.draws.fonte
+package fr.morowin.pdc.draw.fonte
 
-import fr.morowin.pdc.draws.DrawAggregation
+import fr.morowin.pdc.draw.DrawAggregation
 
 object A38_B42_version0 extends DrawAggregation {
-  object A {
+  private object A {
     private val drawA1: List[(Int, Int)] = List(
       34 -> 36,
       2 -> 4,
@@ -130,9 +130,9 @@ object A38_B42_version0 extends DrawAggregation {
       5 -> 20,
       2 -> 30
     )
-    val draws: List[(Int, Int)] = buildFor(drawA1 ++ drawA2 ++ drawA3 ++ drawA4 ++ drawA5 ++ drawA6)
+    val draw: List[(Int, Int)] = buildFor(drawA1 ++ drawA2 ++ drawA3 ++ drawA4 ++ drawA5 ++ drawA6)
   }
-  object B {
+  private object B {
     private val drawB1: List[(Int, Int)] = List(
       29 -> 14,
       15 -> 3,
@@ -271,7 +271,7 @@ object A38_B42_version0 extends DrawAggregation {
       40 -> 17,
       9 -> 24
     )
-    val draws: List[(Int, Int)] = buildFor(drawB1 ++ drawB2 ++ drawB3 ++ drawB4 ++ drawB5 ++ drawB6)
+    val draw: List[(Int, Int)] = buildFor(drawB1 ++ drawB2 ++ drawB3 ++ drawB4 ++ drawB5 ++ drawB6)
   }
-  val draws: (List[(Int, Int)], List[(Int, Int)]) = A.draws -> B.draws
+  val draw: (List[(Int, Int)], List[(Int, Int)]) = A.draw -> B.draw
 }
