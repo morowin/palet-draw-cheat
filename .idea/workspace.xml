@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78126a8-b583-44fc-82a3-5e1465a2f4fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/laiton/Tirage_16_24.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/laiton/Tirage_18_22.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/PDC.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/PDC.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/DrawAggregation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/DrawUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/fonte/A38_B42_version0.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draw/fonte/A38_B42_version0.scala" afterDir="false" />
-    </list>
+    <list default="true" id="d78126a8-b583-44fc-82a3-5e1465a2f4fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,18 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EXEC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GDC.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EXEC.executor": "Run",
+    "Application.GDC.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "sbt.project.settings.configurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/fr/morowin/pdc/draws/fonte" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.morowin.pdc.draw.laiton" />
     </key>
   </component>
   <component name="RunManager">
