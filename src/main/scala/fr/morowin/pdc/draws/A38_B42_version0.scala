@@ -1,4 +1,4 @@
-package fr.morowin.gdc.draws
+package fr.morowin.pdc.draws
 
 object A38_B42_version0 extends DrawAggregation {
   object A {

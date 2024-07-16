@@ -1,23 +1,23 @@
-package fr.morowin.gdc
+package fr.morowin.pdc
 
-import fr.morowin.gdc.draws._
-import fr.morowin.gdc.models._
+import fr.morowin.pdc.draws._
+import fr.morowin.pdc.models._
 
 import scala.collection.mutable
 
-class GDC {
+class PDC {
 
   def run(draws: (List[(Int, Int)], List[(Int, Int)])): Unit = {
     val (a, b) = draws
-    run(a, "⬜ TEAM A")
-    run(b, "⬜ TEAM B")
+    run(a, "TEAM A")
+    run(b, "TEAM B")
   }
   def run(draws: List[(Int, Int)], team: String = ""): Unit = printCommunities(computeCommunities(draws), team)
 
   private def printCommunities(communities: List[(Int, List[Int])], team: String = ""): Unit = {
-    println(s"${Option.when(team.nonEmpty)(team).getOrElse("TEAM")} COMMUNITIES:")
+    println(s"• ${Option.when(team.nonEmpty)(team).getOrElse("TEAM")} COMMUNITIES:")
     communities.foreach { case (community, nodes) =>
-      println(s"\t#$community\t➡\t${nodes.mkString("[", ", ", "]")}")
+      println(s"\t#$community\t→\t${nodes.mkString("[", ", ", "]")}")
     }
   }
 
@@ -135,7 +135,7 @@ class GDC {
   }
 }
 
-object GDC extends App {
+object PDC extends App {
   private val DRAWS = A38_B42_version0.draws
-  new GDC().run(DRAWS)
+  new PDC().run(DRAWS)
 }

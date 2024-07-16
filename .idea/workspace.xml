@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78126a8-b583-44fc-82a3-5e1465a2f4fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.scalafmt.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/GDC.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/draws/A36_B36_version0.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/draws/A38_B42_version0.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/draws/DrawAggregation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/models/Edge.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fr/morowin/gdc/models/Graph.scala" afterDir="false" />
-    </list>
+    <list default="true" id="d78126a8-b583-44fc-82a3-5e1465a2f4fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +14,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="palet-draw-cheat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EXEC.executor": "Run",
     "Application.GDC.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,12 +57,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="GDC" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="fr.morowin.gdc.GDC" />
-      <module name="group-draw-cheat" />
+    <configuration name="EXEC" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fr.morowin.pdc.PDC" />
+      <module name="palet-draw-cheat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.morowin.gdc.*" />
+          <option name="PATTERN" value="fr.morowin.pdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GDC" />
+        <item itemvalue="Application.EXEC" />
       </list>
     </recent_temporary>
   </component>

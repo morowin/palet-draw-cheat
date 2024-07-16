@@ -2,5 +2,14 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="group-draw-cheat" />
+    <profile name="sbt 2" modules="palet-draw-cheat">
+      <option name="higherKinds" value="true" />
+      <parameters>
+        <parameter value="-Ymacro-annotations" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.14/0.13.3/kind-projector_2.13.14-0.13.3.jar" />
+      </plugins>
+    </profile>
   </component>
 </project>
