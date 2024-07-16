@@ -136,6 +136,6 @@ class PDC {
 }
 
 object PDC extends App {
-  private val DRAWS = A38_B42_version0.draws
+  private val DRAWS = fonte.A38_B42_version0.draws
   new PDC().run(DRAWS)
 }

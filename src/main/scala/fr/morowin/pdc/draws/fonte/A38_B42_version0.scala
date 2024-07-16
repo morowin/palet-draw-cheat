@@ -1,4 +1,6 @@
-package fr.morowin.pdc.draws
+package fr.morowin.pdc.draws.fonte
+
+import fr.morowin.pdc.draws.DrawAggregation
 
 object A38_B42_version0 extends DrawAggregation {
   object A {
